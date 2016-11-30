@@ -1,0 +1,19 @@
+{
+  "name": "Timeline",
+  "description": "A Writers Organizer",
+  "version": "0.0.0",
+  "homepage": "https://github.com/aucrawford/timeline",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-bootstrap": "~0.13.3",
+    "font-awesome": ">=4.0.x",
+    "angular-route": "~1.4.0",
+    "angular-resource": "~1.3.0",
+    "angular-loader": "~1.4.0",
+    "angular-mocks": "~1.4.0",
+    "html5-boilerplate": "~5.2.0",
+    "angular-tooltips": "~0.1.21"
+  }
+}

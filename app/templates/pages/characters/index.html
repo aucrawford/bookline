@@ -1,0 +1,18 @@
+<section ng-controller="CharactersCtrl">
+  <div class="container">
+    <h1>Character Map</h1>
+    search <input ng-model="query" />
+
+    <div class="media" ng-repeat="character in characters | filter:query">
+      <div class="media-left">
+        <a href="#">
+          <img class="media-object" ng-src="{{character.imageUrl}}" alt="{{character.name}}">
+        </a>
+      </div>
+      <div class="media-body">
+        <h2 class="h2 media-heading">{{character.name}}</h2>
+        <p>{{character.bio}}</p>
+      </div>
+    </div>
+  </div>
+</section>

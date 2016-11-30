@@ -1,0 +1,44 @@
+[
+  {
+    "page": 1,
+    "event": "start",
+    "subplot": false,
+    "description": "This is the world"
+  },
+  {
+    "page": 5,
+    "event": "catalist",
+    "subplot": false,
+    "description": "suddenly this happens"
+  },
+  {
+    "page": 15,
+    "event": "Meet Djune",
+    "subplot": true,
+    "description": "girl meets boy"
+  },
+  {
+    "page": 50,
+    "event": "climax",
+    "subplot": false,
+    "description": "worst of the worst"
+  },
+  {
+    "page": 70,
+    "event": "boy goes home",
+    "subplot": true,
+    "description": "meloncolly moment where boy doesn't get the girl"
+  },
+  {
+    "page": 90,
+    "event": "resolution",
+    "subplot": false,
+    "description": "she saves the day"
+  },
+  {
+    "page": 100,
+    "event": "conclusion",
+    "subplot": false,
+    "description": "all's well that ends well"
+  }
+]

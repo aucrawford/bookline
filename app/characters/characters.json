@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ahlren",
+    "name": "Ahlren",
+    "imageUrl": "img/characters/char.png",
+    "bio": "Ahlren is trying to prove he matters.",
+    "plotpoints": [
+      {}
+    ]
+  },
+  {
+    "id": "pear",
+    "name": "Pear",
+    "imageUrl": "img/characters/char.png",
+    "bio": "Pear just wants to have fun.",
+    "plotpoints": [
+      {}
+    ]
+  },
+  {
+    "id": "tala",
+    "name": "Tala",
+    "imageUrl": "img/characters/char.png",
+    "bio": "Tala wants to drive her own path.",
+    "plotpoints": [
+      {}
+    ]
+  },
+  {
+    "id": "djune",
+    "name": "Djune",
+    "imageUrl": "img/characters/char.png",
+    "bio": "Djune wants to keep her son safe.",
+    "plotpoints": [
+      {}
+    ]
+  }
+]

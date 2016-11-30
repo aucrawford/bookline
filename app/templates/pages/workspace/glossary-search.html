@@ -1,0 +1,7 @@
+<section>
+  <h1 class="h3">Glossary</h1>
+  <div class="well">
+    Search: <input ng-model="query">
+    <glossary-terms ng-repeat="term in terms | termsFilter:query" term="term"></glossary-terms>
+  </div>
+</section>

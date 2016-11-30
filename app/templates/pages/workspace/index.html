@@ -1,0 +1,88 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 col-sm-2">
+      <chapter-sort></chapter-sort>
+      <!-- <section ng-controller="ChaptersCtrl">
+        <h1 class="h3">Chapters</h1>
+        <div class="well">
+          <ol>
+            <li ng-repeat="chapter in chapters | orderBy: 'order'">
+              <a href="#{{chapter.id}}">{{chapter.title}}</a>
+              <ul>
+                <li ng-repeat="scene in chapter.scenes">
+                  <a href="#{{scene.sceneID}}">{{scene.heading}}</a>
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </section> -->
+    </div>
+
+    <div class="col-md-6 col-sm-8">
+      <section>
+        <h1 class="h2">Book Title</h1>
+        <div class="row">
+          <div class="col-xs-6">
+            <strong>pages:</strong> 5, <strong>words:</strong> 500
+          </div>
+          <div class="col-xs-6 text-right">
+            search: <input type="text" /> <span style="display: none;">replace with: <input type="text"></span> <button class="btn btn-default" style="display:none;">Next</button>
+            <select  style="display:none;">
+              <option value="1">Highlight All</option>
+              <option value="2">Find &amp; Replace</option>
+            </select>
+          </div>
+        </div>
+        <div style="overflow: scroll; height: 450px;">
+          <writing-serface></writing-serface>
+        </div>
+        <div>
+          <!-- <text-angular ng-model="htmlVariable"></text-angular> -->
+
+          <div class="h3">
+            <a href="https://www.pinterest.com/"><i class="fa fa-pinterest"></i></a>
+            <!-- <a href="https://www.facebook.com/"><i class="fa fa-facebook-official"></i></a> -->
+            <a href="https://plus.google.com/u/0/"><i class="fa fa-google-plus"></i></a>
+            <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a>
+            <a href="https://instagram.com/?hl=en"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.tumblr.com"><i class="fa fa-tumblr"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.linkedin.com"><i class="fa fa-linkedin-square"></i></a>
+            <!-- <a href="http://www.deviantart.com/"><i class="fa fa-deviantart"></i></a> -->
+            <!-- <a href="https://www.reddit.com/"><i class="fa fa-reddit"></i></a> -->
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="col-md-3 col-sm-2">
+      <character-select></character-select>
+      <!-- <section id="characterList" ng-controller="CharactersCtrl">
+        <h1 class="h3">Characters</h1>
+        <div class="panel list-group">
+          <a href="#/" ng-repeat="character in characters" class="list-group-item" data-toggle="collapse" data-target="#{{character.id}}" data-parent="#characterList">
+            {{character.name}}
+          </a>
+          <div id="{{character.id}}">
+            {{character.bio}}
+          </div>
+        </div>
+      </section> -->
+
+      <glossary-search phrase="term.phrase" meaning="term.meaning"></glossary-search>
+      <!-- <section ng-controller="TermsCtrl">
+        <h1 class="h3">Glossary</h1>
+        <div class="well">
+          Search: <input ng-model="query">
+          <div ng-show="query">
+            <div ng-repeat="term in terms | filter:query">
+              <h4>{{term.phrase}}</h4>
+              <p>{{term.meaning}}</p>
+            </div>
+          </div>
+        </div>
+      </section> -->
+    </div>
+  </div><!-- .row -->
+</div>

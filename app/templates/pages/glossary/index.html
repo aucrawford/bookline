@@ -1,0 +1,18 @@
+<div class="container" ng-controller="GlossaryCtrl">
+  <h1>Glossary of Terms</h1>
+  <div>
+    <ul>
+      <li><a href="#"></a> / </li>
+    </ul>
+  </div>
+  <div>
+    search <input ng-model="query" />
+  </div>
+  <div>
+    <div ng-repeat="term in terms | filter:query">
+        <h4>{{term.phrase}}</h4>
+        <p>{{term.meaning}}</p>
+      </div>
+    </div>
+  </div>
+</div>
